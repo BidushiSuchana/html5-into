@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Try html form</h1>
+    <form>
+        <label for="name">
+            Enter your name
+            <input type="text" placeholder="your name" id="name">
+        </label>
+        <label for="email">
+            Enter Your email
+            <input type="email" placeholder="your email" id="email">
+        </label>
+        <label for="password">
+            Enter your password
+            <input type="password" id="password">
+        </label>
+        <fieldset>
+            <legend>Enter your gender</legend>
+            <label for="male">
+                <input type="radio" name="gender" id="male">
+                Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">
+                Female
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>choose your app</legend>
+            <label for="fb">
+                <input type="checkbox" name="facebook" id="fb">
+                Facebook
+            </label>
+            <label for="yt">
+                <input type="checkbox" name="youtube" id="yt">
+                Youtube
+            </label>
+            <label for="x">
+                <input type="checkbox" name="X" id="x">
+                X
+            </label>
+            <label for="tiktok">
+                <input type="checkbox" name="tiktok" id="tiktok">
+                Tiktok
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Comment here </legend>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+        </fieldset>
+        <input type="button" value="submit">
+    </form>
+</body>
+
+</html>
