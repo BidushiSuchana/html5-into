@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        thead {
+            font-size: large;
+            font-weight: bold;
+        }
+
+        nav > ul {
+            display: flex;
+        }
+        nav li {
+            list-style: none;
+            padding: 20px;
+
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+
+        nav a:hover {
+            color: blue;
+        }
+
+        .dropdown{
+            display: none;
+            position: absolute;
+            background-color:red;
+            padding-left: 0;
+        }
+
+        nav li:hover .dropdown{
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul >
+                <li><a href="./form.html">Home</a></li>
+                <li><a href="./form2.html">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Phone</a></li>
+                <li class="">
+                    <a href="">Phone</a>
+                    <ul class="dropdown">
+                        <li><a href="">Phone 1</a></li>
+                        <li><a href="">Phone 2</a></li>
+                        <li><a href="">Phone 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>My Company</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Job Title</td>
+                <td>Email</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anna Fitzgerald</td>
+                <td>Staff Writer</td>
+                <td>anna@gmail.com</td>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>Marketing Manger</td>
+                <td>john@y.com</td>
+            </tr>
+            <tr>
+                <td>Zendaya Grace</td>
+                <td>CEO</td>
+                <td>eco@gmail.com</td>
+            </tr>
+        </tbody>
+    </Table>
+</body>
+
+</html>
